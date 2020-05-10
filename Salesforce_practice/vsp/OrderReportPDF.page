@@ -1,0 +1,132 @@
+<apex:page  renderAs="pdf" controller="OrderReportController">
+
+    <apex:stylesheet value="{! $Resource.style}"/>
+    
+    <!-- Header -->
+    <div class="header">
+        <table class="header">
+            <tr>
+                <td>
+                    <!-- Logo da empresa-->
+                    <apex:image alt="ABC" title="ABC" width="100" height="100" url="{! $Resource.company_logo}"/>
+                </td>
+        
+                <td>
+                    <!-- Nome da Empresa, CNPJ e IE -->
+                    {!$Setup.Company_Information__c.Company_Name__c} <br/> 
+                    CNPJ: {! $Setup.Company_Information__c.CNPJ__c} <br/> 
+                    I.E: {! $Setup.Company_Information__c.State_Registration__c} <br/> 
+                    
+                    <!-- Endereço -->
+                    Rua {! $Setup.Company_Information__c.Street__c}, {! $Setup.Company_Information__c.Address_Number__c} - {! $Setup.Company_Information__c.Neighborhood__c} <br/>
+                    {! $Setup.Company_Information__c.City__c} - {! $Setup.Company_Information__c.State__c} - CEP: {! $Setup.Company_Information__c.CEP__c} <br/>
+                    
+                    <!-- Telefone e email -->
+                    Fone: {! $Setup.Company_Information__c.Telephone__c} <br/>
+                    {! $Setup.Company_Information__c.Email__c} <br/> 
+                </td>
+            </tr>
+        </table>
+        <hr class="divisorHeader"/>
+    </div>
+        
+    <!-- Dados da Conta -->
+    <h3>Informações da Conta</h3>
+    <hr/>
+
+    <table class="accountInformation">
+        <tr>
+            <td> <b> {! $Label.AccountName}: </b> {! pageAccount.Name} </td>
+            <td> <b> {! $Label.Year}: </b> {! pageAccount.YearStarted} </td>
+        </tr>
+
+        <tr>
+            <td> <b> {! $Label.BillingAddress}: </b> {! pageAccount.BillingStreet} </td>
+        </tr>
+
+        <tr>
+            <td> <b> {! $Label.BillingCity}: </b> {! pageAccount.BillingCity} </td>
+            <td> <b> {! $Label.BillingState}: </b> {! pageAccount.BillingState} </td>
+            <td> <b> {! $Label.BillingPostalCode}: </b> {! pageAccount.BillingPostalCode} </td>
+        </tr>
+
+        <tr>
+            <td> <b> {! $Label.ShippingAddress}: </b> {! pageAccount.ShippingStreet}</td>
+        </tr>
+
+        <tr>
+            <td> <b> {! $Label.ShippingCity}: </b> {! pageAccount.ShippingCity}</td>
+            <td> <b> {! $Label.ShippingState}: </b> {! pageAccount.ShippingState}</td>
+            <td> <b> {! $Label.ShippingPostalCode}: </b> {! pageAccount.ShippingPostalCode}</td>
+        </tr>
+
+        <tr>
+            <td> <b> {! $Label.Telephone}: </b> {! pageAccount.Phone}</td>
+        </tr>
+
+        <tr>
+            <td> <b> {! $Label.Type}: </b> {! pageAccount.Type}</td>
+            <td> <b> {! $Label.Rating}: </b> {! pageAccount.Rating}</td>
+            <td> <b> {! $Label.ParentId}: </b>{! pageAccount.ParentId}</td>
+        </tr>
+
+        <tr>
+            <td> <b> {! $Label.Description}: </b> {! pageAccount.Description}</td>
+        </tr>
+
+    </table>
+
+    <br/>
+
+    <!-- Pedidos e Itens de pedido -->
+    <h3>Pedidos</h3>
+     
+    <apex:repeat value="{! pageOrderList}" var="order">
+
+        <div class="pedido"><b> {! $Label.OrderNumber}: </b> {! order.OrderNumber} </div>
+
+        <hr/>
+        <table class="pedido">
+            <tr>
+                <td> <b> {! $Label.OrderType}: </b> {! order.Type} </td>
+                <td>  <b> {! $Label.OrderStatus}: </b> {! order.Status} </td>
+            </tr>
+
+            <tr>
+                <td>  <b> {! $Label.OrderStartDate}: </b> {! order.EffectiveDate} </td>
+                <td>  <b> {! $Label.OrderEndDate}: </b> {! order.EndDate} </td>
+            </tr>
+        </table>
+
+        <br/>
+        
+        <table class="itensPedido">
+            <tr>
+                <th> {! $Label.ItemNumber}</th>
+                <th> {! $Label.ItemProduct} </th>
+                <th> {! $Label.ItemFamily} </th>
+                <th class="thead"> {! $Label.ItemQuantity} </th>
+                <th class="thead"> {! $Label.ItemUnitPrice} </th>
+                <th class="thead"> {! $Label.ItemTablePrice} </th>
+                <th class="thead"> {! $Label.ItemTotalPrice} </th>
+            </tr>
+
+            <apex:repeat value= "{! order.orderItemList}" var="orderItem">
+                <tr>
+                    <td> {! orderItem.OrderItemNumber} </td>
+                    <td> {! orderItem.ProductName} </td>
+                    <td> {! orderItem.ProductFamily} </td>
+                    <td class="moneytd"> {! orderItem.Quantity} </td>
+                    <td class="moneytd"> {! orderItem.UnitPrice}  </td>
+                    <td class="moneytd"> {! orderItem.ListPrice}  </td>
+                    <td class="moneytd"> {! orderItem.TotalPrice}  </td>
+                </tr>
+            </apex:repeat>
+        
+        </table>
+       
+        <br/> <br/>
+
+    </apex:repeat>
+
+</apex:page>
