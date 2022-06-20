@@ -1,0 +1,350 @@
+#,Questão,Alternativas,Alternativa(s) Correta(s)
+1,The mission of No More Homelessness (NMH) is to help every homeless person in the best possible manner through its Experience Cloud site. NMH's site manager wants to set up search engine optimization (SEQ) to ensure NMH's public Experience Cloud site is visible to search engines.
+,,A. Check whether manual sitemap refresh happens on the last day of every month.,"C,D"
+,,B. Check whether the SEO Institute has provided the approval for the site with end date.
+,,C. Check whether the Experience site is public and activated. Pencil & Paper
+,,D. Check whether a custom robots.txt file to control indexing has been created. b
+
+2,"By defining roles, permission sets, or profiles, Knowledge article visibility can be controlled by using which functionality?"
+,,A. Content Management,D
+,,B. Automatic Topic Assignment
+,,C. Org-Wide Defaults
+,,D. Data Category Visibility
+
+3,Zephyrus Relocation Services (ZRS) plans to build a portal for its partners. The portal needs to show company information and brand details on the Account Management page.
+,,A. Help Center,"B,D"
+,,B. Partner Central
+,,C. Build Your Own
+,,D. Customer service
+
+4,DreamHouse Realty (DR) recently created a site for potential buyers. DR has a rich knowledge base organized in data categories and now plans to make those Knowledge articles available to site users.
+,,A. Map topics to data categories.,"A,C"
+,,B. Map articles to Content Topics.
+,,"C. Enable ""Automate Topic Assignment"" setting."
+,,"D. Enable ""Share on Sites"" setting."
+
+5,Northern Trail Outfitters (NTO) is building a digital experience for its independent researchers who will be collaborating with NTO's staff on their research-related submissions.
+,,A. None,B
+,,B. Portal User Visibility
+,,C. Site User Visibility
+,,D. Guest User Visibility
+
+6,Which component inform support agents working in the Service Console what actions a customer has taken on an Experience site?
+,,A. Experience Tracker,D
+,,B. Einstein Customer
+,,C. Community View
+,,D. Customer Insights
+
+7,"Ursa Major Solar would like to use three Record Detail components on a page to display object details for the Account, Case, and Opportunity objects for the user who is logged in to the company's portal. When they drop the components on the page, they are not getting the desired results."
+,,A. The Record Detail component will only show record details for the Case object.,B
+,,"B. The Record Detail component populates the recordID associated with the object for the page template, so this component will not work for this use case."
+,,C. The Record Detail component is a custom component and was not configured correctly
+,,D. The Record Detail component populates the record associated with the object for the page template so this component will only work on the Home page template
+
+8,Universal Containers is looking to onboard three new partners to the community.
+,,"A. Create branding sets, audience targeting, and navigation menu targeting.",A
+,,"B. Create branding sets, a separate page variation for each partner, and a custom Navigation Menu component."
+,,"C. Create branding sets, audience targeting and a custom Navigation menu component."
+,,D. Create a separate community for each partner with audience targeting.
+
+9,Which three items are reportable by a site administrator through Google Analytics for Experience Cloud sites?
+,,A. Contact Support page Activity,"A,C,E"
+,,B. Number of Case Created by user
+,,C. Search Activity
+,,D. User Login History Option
+,,E. Page View by Salesforce Object
+
+10,How can records owned by Customer Community users be shared with internal users?
+,,A. Create a Sharing Set that includes a Customer Community profile and create a Share Group for the Sharing Set.,C
+,,B. Use the standard is Owned By External User checkbox on records to create a criteria-based sharing rule to share records owned by Customer Community users with all internal users.
+,,C. Create a Share Group for a Customer Community profile that is not associated with a Sharing Set.
+,,D. Create an owner-based sharing rule to share records owned by a Customer Community role with all internal users.
+
+11,"Universal Containers (UC) would like to create a site for its existing customers. The site will contain articles, manuals, and FAQs. The site will also contain access to UC's Contracts object specific to each customer and the ability for customers to update their billing information, requiring them to log in to the site to access any information."
+,,A. Help Center C,B
+,,B. Partner Central
+,,C. Customer Account Portal
+,,D. Customer Service
+
+12,Universal Containers (UC) has hired UX designers to help improve brand recognition and has a new style guide it needs to implement to unify branding across all of its Experience sites.
+,,A. Reference a shared Bootstrap CSS file in all of the sites.,B
+,,B. Send the style guide to Experience managers to implement.
+,,C. Create a custom theme to apply to all Experience sites.
+,,D. Create a custom template to apply to all Experience sites.
+
+13,hat are three best practices when configuring self-registration for an Experience Cloud site? Choose 3 answers
+,,A. Use the same profile for your self-service site and your partner portal.,"B,D,E"
+,,B. Assign a cloned standard site profile as the default for self-registration.
+,,C. Assign the standard site profile as the default for self-registration.
+,,D. Use a restrictive default profile to begin with.
+,,E. Create a separate profile for your self-service site and your partner portal.
+
+14,"The system administrator at Get Cloudy Consulting is trying to import Customer Portal users to the newly created Experience Cloud. However, the import failed."
+,,A. The portal role record has not been created.,"A,C"
+,,B. The portal profile record has not been created.
+,,C. Contact records have not been created.
+,,D. User records are missing. Penal & Pep ore
+
+15,No More Homelessness (NMH) and DreamHouse Realty (DR) are working to provide free housing to low-income seniors. Social workers at NMH need to access records owned by realtors at DR.
+,,A. Role Hierarchy,C
+,,B. Sharing Set
+,,C. Sharing Rule
+,,D. Super User
+
+16,What does a system administrator need to do when creating Experience Cloud users?
+,,A. Add user to an account as a user record.,C
+,,B. Assign Partner Community Plus license to the user.
+,,C. Add user to an account asa contact record.
+,,"D. Click the ""Log In to Site as User"" button."
+
+17,A consultant is setting up an experience for a client in a new org. The client insists on using standard profiles for external users.
+,,"A. Allow using standard external profiles for self-registration, user creation, and logging'' must be enabled.",A
+,,B. Customer Community Plus Login Experience license need to be used.
+,,C. Create a permission set with '' Allow standard external profiles' check assign to all external users.
+,,"D. Ensure the standard profile have Allow using standard external profiles for self-registration, user creation, and login' set to True."
+
+18,"Northern Trail Outfitters (NIO) is considering how to manage its accounts for the B2B portion of its business. NIO uses person accounts for its B2C business, and business accounts with related contacts for its B2B business. NTO has several B2B customer accounts that are very large. These accounts have child accounts that represent departments and opportunities at the department level that will need to be visible to users at the parent account level. NIO has Customer Community Plus licenses."
+,,A. Extend the Standard Role Hierarchy setting departments as child accounts.,D
+,,B. Enable the External Account Hierarchy setting departments as child accounts.
+,,C. Use the Business Accounts and Contacts with Sharing Sets to grant additional record access as needed.
+,,"D. Since NTO has person accounts, it cannot use the External Account Hierarchy and will need to use groups and sharing rules to"
+
+19,What does a system administrator need to do when creating Experience Cloud users?
+,,A. Add user to an account as a user record.,D
+,,B. Assign Partner Community Plus license to the user.
+,,"C. Click the ""Log In to Site as User"" button."
+,,D. Add user to an account as a contact record.
+
+20,Northern trail Outfitters has created a microsite digital experience for its Gold-Level VIP customers. The digital experience is not yet actives.
+,,"A. Set the Community to Active, and available profiles and permission sets to the Admin Workspace, enable Contacts as community users, and set welcome emails to Enabled.",B
+,,"B. Add available profiles and permission sets to the Admin Workspace, enable Contacts as community users, set welcome emails to Enabled, and set the community to Active."
+,,"C. Set the community to Active, and available profiles and permission sets to the Adman Workspace, and create a process to send the welcome emails."
+,,"D. Publish the community, which will send out the welcome emails."
+
+21,"Universal Containers has recently launched a site for its retailers. Retailers able to collaborates with other retailers around topic; however, retail managers aren't' able to see records owned by their peers and subordinates."
+,,A. Retail managers need to be given Super User access.,A
+,,B. A Sharing Rule needs to be created.
+,,C. Retail managers need to be put in the executive role in the Role Hierarchy.
+,,D. A Sharing Set needs to be created.
+
+22,Ursa Major Solar would like the navigation menu in the customer portal to be vertical.
+,,A. Fix the header's Position.,"B,D"
+,,B. Write custom code
+,,C. Edit the default navigation
+,,D. Download an app from AppExchange
+
+23,Ursa Major Solar (UMS) will be creating a partner portal to distributing leads to partners. Partners will also be able to create their own leads in the portal UMS has decided to use Partner Central template.
+,,A. Enable Allow External Creation'' in Digital Experience settings,D
+,,B. Which three should UMS take at a minimum In order to meet the requirement?
+,,C. Configure Lead creation Leadon low Distribution inside PRM Workspace.
+,,D. Create a Lead Process for Lead Distribution
+,,E. Create a Lead Queue for Lead Distribution.
+
+24,Ursa Major Solar (UMS) will be creating a partner portal to distributing leads to partners. Partners will also be able to create their own leads in the portal UMS has decided to use Partner Central template.
+,,A. Create a Lead Process for Lead Distribution,"B,C,D"
+,,B. Configure Lead creation Leadon low Distribution inside PRM Workspace.
+,,C. Enable Allow External Creation'' in Digital Experience settings
+,,D. Create a Lead Queue for Lead Distribution.
+
+25,Ursa Major Solar (UMS) is automating its businessprocesses using Salesforce. UMS wants its Platinum partners to be able to approve installation projects and deals. In which two ways can UMS accomplish this?
+,,A. Assign external users as the co-owners on records and create a digital experience for those users.,"C,D"
+,,"B. Assign external users Super Useraccess on records and create a digital experience for those users,"
+,,C. Add external users directly to approval queues and create a digital experience for those users.
+,,D. Assign external users as approvers on records and create a digital experiencefor those users.
+
+26,Northern Trail Outfitters (NTO) is evaluating Experience Cloud forcreating an onboarding app for new hires.
+,,A. Chatter posts related to a record will be available in the employee app as well as the main org.,"A,B"
+,,B. Employee apps are only available in Unlimited Edition.
+,,C. Experience Cloud cannot be used for employee apps.
+,,D. Not all Chatter posts inside Chatter groups within the employee app will be available in the main org.
+
+27,Which two statements regarding data categories are true?
+,,"A. When a category is made visible to a user through custom settings or is made visible by default, its child and parent categories are not included.","B,D"
+,,B. Customer Portal users and partner portal users inherit data category visibility settings of the role assigned to their account (owner) managers by default.
+,,"C. Translated articles will not follow the master article data category. Therefore, translated articles can be assigned to a different data category."
+,,"D. Child roles cannot see more data categories than their parent role. If the parent role's visibility changes, the child role's category visibility is reset to its parent's category visibility."
+
+28,"Bloomington Caregivers (BC) wants to share Covid-19 related information with all site visitors, including unauthenticated users."
+,,A. Guest user external organization-wide default are always set to Private.,"A,D,E"
+,,B. Guest user external organization-wide defaults are always set to Public.
+,,C. Guest user can't records via manual existing records
+,,D. Guest user can't access records via manual sharing
+,,E. Guest user can't be members of public groups or queues.
+
+29,Partners at Universal Containers (UC) have given feedback that it takes too long for administrators to create new users or reset passwords for partner employees.
+,,A. Create a new user form that automatically triggers a process to create a user.,A
+,,B. Implement a limit on new users and password resets.
+,,C. Delegate external user administration.
+,,D. Recommend partners share user credentials.
+
+30,Northern Trail Qutfitters implemented a chatbot on its Experience site.
+,,A. Number of lead records created,"C,D,E"
+,,B. Case Type by Issue
+,,C. Case deflection
+,,D. CSAT (Customer Satisfaction score)
+,,E. Average Handle Time compared to Bot Session Time
+
+31,"Ursa Major Solar (UMS) has seen exponential growth in recent years. The Incoming call volume to the support center has gone up exponentially as well, and is now reaching unmanageable levels."
+,,A. Create a smart queue router using Service Cloud template.,B
+,,B. Create a self service community using Customer Service template.
+,,C. Create virtual support agents using Chat Bot template.
+,,D. Create a peer-to-peer forum using Self Service template.
+
+32,"Bloomington Caregivers (BC) intends to launch a company-wide project to create personalized experiences for its providers, vendors installers, and patients. BC's business processes and workflow flow industry standards and common practices, mostly driven by compliance and regulatory mandates."
+,,A. Lightning Bolt solutions,C
+,,B. SDLC (Software Developer Life Cycle) for Experiences
+,,C. Digital Experience framework
+,,D. Community Connect
+
+33,Universal Container (UC) has a business model that involves B2C as well B2B customers. A group of B2B customers has recently signed a contract with UC that would allow them to start working with the UC Support team in resolving low-severity B2C customer issues.
+,,"A. Create a single digital experience for B2C customers, B2B customers, and employees.",A
+,,"B. Create a digital experience for B2B customers, a partner portal for B2B customers, and use the internal CRM org for employees."
+,,"C. Create a digital experience for B2C customer and employees, and another one for B2B customers and employees."
+,,"D. Create a digital experience for B2C customers and B2B customers, and use the internal CRM app for employees."
+
+34,Universal Containers (UC) works with a large retainer network. UC wants these retailers to start registering deal and work with UC to convert them into sales.
+,,A. Platform Portal,D
+,,B. Partner Community Plus
+,,C. Commerce Portal
+,,D. Partner Community
+
+35,"Ursa Major Solar (UMS) wants to differentiate between the leads created by partners and the leads created by its own Sales team. All lead records are shared with partners: however, some of the information captured by the Sales team on the lead record should not be shared with partners."
+,,A. Create Page Layouts far Lead Distribution.,"A,B"
+,,B. Create Lead Record Types for Lead Distribution.
+,,"C. Enable ""Lead Sharing"" in Digital Experience settings."
+,,D. Create a separate channel for partners in PRM Workspaces.
+
+36,Northern Trail Qutfitters would like to display a different Hero component on the Home page for United States and EMEA.
+,,A. Use the same page variation for EMEA and include multiple targeted HTML components.,B
+,,"B. Use the same page variation for EMEA, include multiple Hero components, and target each , component."
+,,"C. Create a page variation for EMEA, configure the Theme, and include a different Hero component."
+,,"D. Create a page variation for EMEA, configure the flexible page layout, and include a different Hero component."
+
+37,"The Experience Cloud site manager of Cloud Kicks has enabled reputation for its community members, As per the recommendation given by the Experience Cloud consultant, a decision was made to use the out of the box features."
+,,A. Default point system and set of reputation levels become available.,"A,D"
+,,B. Customer portal members gain the ability to provide badges to other members.
+,,C. Inactive and active members are assigned default reputation points.
+,,D. Chatter influence is removed from the Contribution section on the Profile page.
+
+38,"Universal Containers has implemented Chat, but agents are complaining that they have to capture several pieces of information before being able to service the customer."
+,,A. Enable Chat for only authenticated users and pass the user's information on hidden fields.,C
+,,B. Create a flow for customers to fill out before initiating Chat.
+,,C. Create a pre-chat form to fill out before initiating Chat.
+,,D. Deploy a unique chat per topic.
+
+39,"Universal Containers (UC) wants to create a do-it-yourself site for its existing and prospective customers. The site will contain articles, belong manuals, and FAQs. Users will be able to ask questions and answer other users' questions on the site."
+,,A. Guest user and public access settings,"A,B"
+,,B. Content Delivery Network
+,,C. Document Library Model (DLM)
+,,D. Public Site Connect
+
+40,"A consultant for Cloud Kicks (CK) is asked to build a site for CK customers. As part of this site, a custom object will be used to manage customer subscriptions. These subscriptions will need to leverage advanced sharing rules to ensure that only appropriate customers can see these subscriptions."
+,,A. Customer Community User,"B,C"
+,,B. Customer Community Login User
+,,C. Customer Community Plus Login User
+,,D. Partner Community User
+
+41,Ursa Major Solar is utilizing audience targeting for specific components in its portal.
+,,A. You can't assign record-based criteria to a component or branding set.,"A,C"
+,,B. You can only have three audiences.
+,,C. You can't assign audiences to the components in the template header and footer sections.
+,,D. Available domains are created in the Administration workspace and associated with a community through a custom URL.
+
+42,"Bloomington Caregivers (BC) has created a customer Experience site using Experience Cloud that gives customers the ability to pay this, manage appointments, and open cases with support. BC also has a partner Experience site on Experience Cloud. The company's leadership has now decided to extend access to the customer Experience site to its partners and internal Salesforce users so they can collaborate more effectively."
+,,A. Configure SSO between the partner site and customer site so partners get access. Also configure SSO between internal org and the customer site so internal users get access to the customer site.,D
+,,B. Enable the partner accounts and the internal accounts as customers; the users under these accounts will then automatically gam access to the customer site.
+,,"C. Create business accounts for partners and internal users, enable the accounts as customers, and then create users under these accounts by creating contacts."
+,,D. Add the existing partner profiles and internal user profiles to the customer Experience site; this will automatically give users access to the customer site.
+
+43,"Ursa Major Solar (UMS) has business and person accounts in its Salesforce org. UMS has partner portals created for its Silver partners, DreamHouse Realty (DR) and Cloud Kicks (CK)."
+,,A. Only business accounts can be created as partner users,"B,D"
+,,B. Assign Partner Community license to partner users.
+,,C. Only person accounts can be created as partner users.
+,,D. Assign Customer Community Plus license to partner users.
+
+44,The Salesforce Administrator at Universal Containers (UC) has set up topics. UC is going through a rebranding phase and wants to simplify topics but keep articles that have been assigned to the topics.
+,,A. Merge similar topics in Content Management.,A
+,,B. Mark old topics as Inactive and assign articles to the new active topics.
+,,C. Keep existing topics and reassign articles to newly created topics.
+,,D. Delete existing topics and assign articles to newly created topics.
+
+45,"A consultant recently finished gathering requirements for a Cloud Kicks (CK) project that will launch five new Customer Experience Cloud sites worldwide, all on a brand new Salesforce org. The purpose of these sites is to a generate buzz around new CK models and crowdsource new ideas for the RAD department. The consultant knows Multiple Books that they need to enable moderation and rate limit rules as part of their planning and must meet the following requirements:"
+,,"A. Notify the stakeholders that the number of rate rules, but not content moderation rules, exceeds the org limit.",C
+,,B. Ensure that both the notify and freeze actions for all site rate rules are implemented.
+,,C. Notify the stakeholders that the number of both moderation and rate rules exceeds the org limit.
+,,"D. Notify the stakeholders that the number of content moderation rules, but not rate rules, exceeds the org limit."
+
+46,Universal Containers (UC) is planning to create a portal for its global partner network. Users will be assigned a Partner Community license and a role.
+,,A. Unused roles can be deleted.,"A,C"
+,,"B. Once created, roles cannot be deleted."
+,,"C. The default limit for the number of roles for portals is 50,000 per org."
+,,D. Role Hierarchy can only be used if all objects have external OWD set to Private.
+
+47,Cloud Kicks (CK) has a Partner Community with an External Account hierarch. The Number of Partner Roles is set to two with the roles defined as Partner Manager and partner user.
+,,"A. The Partner user who created the case those in the Partner Manager role above them, and those in the Partner manager role in the Partner account",B
+,,"B. The Partner user who created the case, their peers in the Partner user role, those in the Partner manager role above them, those in the Partner user role in the partner account, and those in the partner Manager role in the parent account."
+,,"C. The partner user who created the case, their peers in the partner user role, those in the partner Manager role above them, and those in the Partner Manager role in the parent account."
+,,"D. The partner User who created the case, those in the partner Manger role above them, those in the Partner user role in the parent account, and those in the partner manager role in the parent account."
+
+48,The mission of No More Homelessness (NMH) is to help every homeless person in the best possible manner through its Experience Cloud site. NMH's site manager wants to set up search engine optimization (SEQ) to ensure NMH's public Experience Cloud site is visible to search engines.
+,,A. Check whether manual sitemap refresh happens on the last day of every month.,"B,D"
+,,B. Check whether the Experience site is public and activated. Pencil & Paper
+,,C. Check whether the SEO Institute has provided the approval for the site with end date.
+,,D. Check whether a custom robots.txt file to control indexing has been created.
+
+49,Get Cloudy Consulting is implementing an equity management solution for one of its financial clients. The solution will enable the external independent financial researchers to collaborate with internal portfolio control staff in a private Chatter group.
+,,A. Create a portal for external researchers and give internal staff access to the portal.,B
+,,B. Create a portal for external researchers and give internal staff access to the main org.
+,,C. Create a portal for external researchers and create an app for internal staff.
+,,D. Give external researchers and internal staff access to the mam org.
+
+50,Universal Containers (UC) has a B2C customer department that uses person accounts to track and manage all B?C customers. UC has set up a B2C site using Salesforce Experience Cloud. The VP of B?C business wants to enable self-registration on the portal so customers can create their own user accounts.
+,,A. Create a custom self-registration page and Apex handler that creates a person account for each user self-registering on the portal.,D
+,,B. Use the standard self registration configuration under Experience Workspace and leave the default Account field empty.
+,,"C. Use the standard self-registration configuration under Experience Workspace that assigns users to a default business account, and then build a trigger on Account to create person accounts for each user."
+,,"D. A Restrict the Account record type access to Person Account record type only for the Site Guest User, so any account created is"
+
+51,Insightopia is planning to create a high-performance site for its partners. The Home page will feature multiple custom component that will provide insights and trends along with near real-time updates.\Which template should Insightopia consider for its site?
+,,A. Help Center,D
+,,B. Partner Central
+,,C. Customer Account Portal
+,,D. Build Your Own (LWR)
+
+52,Cloud Kicks (CK) wants to organize content on its site so that users can easily search and brows for information.
+,,A. Navigational Topics,"A,C,D"
+,,B. Navigation Tree
+,,C. Content Topics
+,,D. Featured Topic
+,,E. Content Graph
+
+53,Northern Trail Qutfitters has a network of resellers who are Partner Community users. One of the resellers has requested that their parent company get View access to cases created by their child companies.
+,,A. Manually share cases.,D
+,,B. Move users who need case access to a higher level in the Role Hierarchy.
+,,C. Create a Sharing Set for the Account.
+,,D. Configure an External Account Hierarchy.
+
+54,"The Salesforce Administrator at Ursa Major Solar is trying to create a partner user for their Partner Community that was built using Salesforce Experience Builder. However, the admin is not able to create it from the contact record."
+,,A. The Salesforce administrator is not marked as a delegated administrator on the partner account.,"C,D"
+,,B. The Salesforce Administrator is not a member of the Partner Community
+,,C. The account record associated with the contact record is not enabled as a partner.
+,,D. The Salesforce Administrator is not assigned a role in Salesforce.
+
+55,What are two Salesforce recommendations for setting up partner roles in large orgs? Choose 2 answers
+,,A. Create partner roles in a separate branch in your Role Hierarchy.,"A,B"
+,,"B. Grant partner users access to the partner account using a Sharing Rule,"
+,,C. Create partner roles in the same branch in your Role Hierarchy.
+,,D. Reduce the number of roles to one to improve system performance.
+
+56,Which three fields are required creating Experience Cloud users using Data Loader?
+,,A. First Name,"A,C,D"
+,,B. Currency
+,,C. Role Id
+,,D. Profile Id
+,,E. Profile Name
+
+57,Ursa Major Solar would like its Experience Cloud site's guest users to benefit from the suggestions that come from autocomplete on search terms.
+,,"A. In the Search component property editor, open the Autocomplete section and click desired objects to appear in autocomplete. Select ""publicly available"".",A
+,,"B. In the Hero component property editor, open the Search Results section and click desired objects to appear in autocomplete. Select ""publicly available""."
+,,"C. In Salesforce Setup, type ""support settings"" in the quick find box. Under the Autocomplete header, select the objects to appear in autocomplete for guest users."
+,,D. Use the Developer Console to add code to allow for autocomplete functionality.
+
