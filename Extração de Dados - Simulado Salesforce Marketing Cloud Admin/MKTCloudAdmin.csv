@@ -1,0 +1,314 @@
+#,Questão,Alternativas,Alternativa(s) Correta(s)
+1,"Northern Trail Outfitters (NTO) is building a journey which randomly sends five different versions of an initial welcome email to new subscriber however, subscribers receive the same follow-up email two weeks later. To improve maintainability of their email content, NTO want to use 3 completely different emails, rather than having one email with dynamic content."
+,,A. Join,A
+,,B. Engagement Split
+,,C. Wait Until Date
+,,D. Einstein STO
+
+2,Northern Trail Outfitters (NTO) has a requirement to create a distinction between marketing and transactional emails in terms of From Name and IP Address for reputation purposes.
+,,A. Define a Subscriber -specific From Name.,"C,D"
+,,B. Define custom Reply Mail Management.
+,,C. Define a Delivery Profile.
+,,D. Define a Sender Profile.
+
+3,The Marketing Cloud admin for Northern Trails Outfitters wants to build an audience with Advertising Studio which mimics the traits of their most valuable customers.
+,,A. Google and Facebook,B
+,,B. Facebook and Twitter
+,,C. Twitter
+,,D. Facebook
+
+4,Setup Assistant provides information and resources for configuring a new Marketing Cloud account.
+,,A. Setting up the Data Structure,A
+,,B. Enabling Mobile Connect
+,,C. Configuring Journey Builder
+,,D. Managing the Enhanced SFTP
+
+5,A Marketing Cloud admin is asked by the marketing team to ensure a default Header and Footer be added to emails.
+,,A. Emails Studio Settings,C
+,,B. Content Builder Settings
+,,C. Account Settings
+,,D. Campaign Settings
+
+6,What storage model should be used if a subscriber has more than one value for an attribute?
+,,A. Publication Lists,B
+,,B. Data Extensions
+,,C. Lists
+,,D. Profile Attribute
+
+7,A Marketing Cloud admin wants to create a suppression list for hard-bounced email addresses Where could the details be found?
+,,A. Run a Bounce Email Report,D
+,,B. Run an Account Send Summary Report
+,,C. Query the Send Log
+,,D. Query the Bounce Data View
+
+8,Analyst of The Northern Trail Outfitters (NTO) marketing team needs to pull email metrics for an upcoming quarterly company meeting. These metrics need to be reported per email campaign for each of NTO's Business Units:
+,,A. Campaign Email Tracking Report,D
+,,B. Email Send Report
+,,C. Email Performance Over Time Report
+,,D. Account Send Summary Report
+
+9,Northern Trail Outfitters wants to pass the email address of a subscriber to a landing page through a URL parameter from a promotional email.
+,,A. CloudPagesURL AMPscript function,A
+,,B. Web Analytics Connector
+,,C. Link Wrapping
+
+10,"Northern Trail Outfitters runs a nightly automation consisting of a File Transfer and a File Import. Following an update from the engineering team, the automation began failing. The Marketing Cloud admin suspects the CSV file now has an invalid format."
+,,A. Update the Import definition to include a notification email address,A
+,,B. Update the automation to include a notification email address for Runtime Errors
+,,C. Move the Import definition to its own automation and include a notification email address
+,,D. Move the File Transfer to its own automation and include a notification email address
+
+11,"Northern Trail Outfitters (NTO) has a franchise model which allows locally-owned stores to operate under the corporate umbrell a. They are required by corporate policy to email each franchisee a monthly statement, but the statement cannot be publicly accessible Which Marketing Cloud product should NTO purchase as a solution?"
+,,A. Email Rachments,D
+,,B. Analytics Builder
+,,C. Content Syndication
+,,D. Distributed Sending
+
+12,"Which Product enables a Marketing Cloud admin to observe customer behavior, build performance profiles and deliver the next best content?"
+,,A. Einstein Email Recommendations,A
+,,B. Content Builder
+,,C. Audience Builder
+,,D. Einstein Send Time Optimization
+
+13,A large retail company has selected Marketing Cloud and has asked to be fully migrated from their existing platform in three weeks. They have communicated the following: They currently have 3 million customers. They email customers twice a week with no known deliverability issues. Their contract includes one Sender Authentication Package (SAP).
+,,A. IP ramp -up can be accelerated by migrating to pre -warmed IP addresses.,"C,D"
+,,"B. IP ramp -up can be bypassed, given their historical lack of deliverability issues."
+,,C. IP ramp -up takes four to six weeks to be able to fully send to all 3 million customers.
+,,D. IP ramp -up is important to establish a positive sender reputation.
+
+14,Marketing Cloud admin is asked to determine the total number of emails sent across all of their business units in the last calendar year Where would the admin retrieve this information?
+,,A. Email Studio > Email > Tracking > Sends,C
+,,B. Studio > Email > Subscribers > All Subscribers
+,,C. Analytics Builder > Reports > Email Send Report
+,,D. Contact Builder > All Contacts > Email
+
+15,A customer with limited technical resources has requested assistance in setting up a small email deployment that the customer will maintain long term. The email will display men's shoes to males in the audience and women's shoes to females in the audience. The sendable data extension contains a field with a value of Male or Female. Which method should a consultant recommended to ensure content is displayed properly within the email.
+,,A. AMPscriptlookupRows functions,C
+,,B. AMPscript conditional against the Gender field
+,,C. Dynamic Content Wizard
+,,D. A/B Test content type
+
+16,Which three considerations should be made when setting up Distributed Marketing?
+,,A. Business users can select any email at time of send.,"A,D,E"
+,,B. Default options can be set up for the greeting in the email.
+,,C. The DM administrator Profile is required to access Distributed Marketing.
+,,D. A journey can be connected to one or more Campaigns.
+,,"E. Messages can be sent to Contacts, Leads, and Person Accounts."
+
+17,A Marketing Cloud admin wants to ensure no one could access the API with their Marketing Cloud user credentials.
+,,A. Select 'Enable Audit Trail Data Collection',D
+,,B. Deselect 'Exclude API Users From Password Expiration'
+,,C. Select 'Identity Verification'
+,,D. Deselect 'Enable Username and Password for Web Services'
+
+18,A Marketing Cloud admin is configuring a journey using Path Optimizer. they want to hold back 60% of the contacts until a winner has been selected.
+,,A. Journey re-entry settings,"B,C"
+,,B. Run Once schedule type
+,,C. Winner evaluation
+,,D. Data Extension entry source
+
+19,"What are two possible outcomes when ""Send as Multipart MIME"" is selected during the send process? Choose 2 answers"
+,,A. The email will avoid detection by various SPAM filters.,"C,D"
+,,B. A custom text version will be sent with your HTML email.
+,,C. An auto-generated text version will be sent with your HTML email.
+,,D. Open and click activity are tracked in either version.
+
+20,"During discovery, the customer outlines data requirements and the anticipated use of Marketing Cloud with the following criteria:"
+,,A. Data extensions support Customer ID to be used as Subscriber Key.,D
+,,B. Data extensions allow for add/update Import activity.
+,,C. Data extensions can store HTML code as an attribute.
+,,D. Data extensions are necessary for Contact Builder
+
+21,Northern Trail Outfitters (NTO) purchased one Sender Authentication Package (SAP) to ensure their branding is on every marketing communication.
+,,A. The out-of-the-box profile center will display NTO branding,D
+,,B. A different click domain can be used for each brand
+,,C. A Dedicated IP is automatically warmed up
+,,D. Image URLS are wrapped with the appropriate brand URL
+
+22,A Marketing Cloud admin is asked to understand how a certain content area within a Triggered Send Email is performing.
+,,A. Email Performance by Attribute,C
+,,B. Dynamic Content for Triggered Sends
+,,C. Impression Tracking for Triggered Sends
+,,D. Sends Account Send Summary
+
+23,(NTO) wants to use complex criteria to identify subscribers for a special promotional email. Especially they want to target subscribers who opened or engaged with an email within the last 30 days and live within 10 miles of an NTO store.
+,,A. Journey,C
+,,B. SQL Queries
+,,C. Measures
+,,D. Data Filters
+
+24,What should be confirmed to ensure Journey Builder directs the subscribers correctly?
+,,A. Contract Data is used for the Decision Split.,C
+,,B. Filter Contacts are enabled to refine the audience.
+,,C. Journey Data is used for the Decision Split.
+,,D. Entry Source attributes are available in Journey Settings.
+
+25,Northern Trail Outfitters wants to know how customers are engaging with marketing communications they have sent over the last year. What action should be taken to populate the Einstein Engagement Scoring Dashboard?
+,,"A. Select the channels (Emails, Push, SMS) to report on then click Activate",C
+,,B. Click Activate and wait for an email notification
+,,C. Select one of the Predictive Algorithms then click Deploy
+,,D. Click Deploy and results are available immediately
+
+26,"A user asks a Marketing Cloud admin to review their permissions since they are unable to send an email. The admin reviews the user profile and notices the user has three roles assigned: Content Creator, Data Manager, and Marketing Cloud Viewer."
+,,A. Remove the Marketing Cloud Viewer Role,D
+,,B. Edit permissions and deselect Deny for Email Sending
+,,C. Add the Role Marketing Cloud Channel Manager
+,,D. Edit permissions and Grant permissions to Send
+
+27,Northern Trail Outfitters has noticed an issue with their sends today.
+,,A. Help and Training,"A,B"
+,,B. System Status
+,,C. Create Support Case
+,,D. Failed Sends
+
+28,Northern Trail Outfitters just purchased Marketing Cloud.
+,,A. Importing data into contacts using the Data Loader,"B,C,D"
+,,B. Classifying sends and defining parameters for email sends
+,,C. Building the data structure used to store audience information
+,,D. Creating users and assigning roles which meet their job functions
+,,E. Creating a SMS message and sending a mobile campaign
+
+29,"What are two possible outcomes when ""Send as Multipart MIME"" is selected during the send process? Choose 2 answers"
+,,A. Open and click activity are tracked in either version.,"A,D"
+,,B. The email will avoid detection by various SPAM filters.
+,,C. A custom text version will be sent with your HTML email.
+,,D. An auto-generated text version will be sent with your HTML email.
+
+30,A Marketing Cloud admin wants to append an Urchin Tracking Module (UTM) variable String to links in emails.
+,,A. Personalization Builder,B
+,,B. Parameter Manager
+,,C. Advertising Studio
+,,D. Web and Mobile Analytics
+
+31,Northern Trail Outfitters has five business units in their Marketing Cloud account. All business units should be configured to use the same SFTP directory How should this setup be achieved?
+,,A. Copy the parent SFTP user into each child business unit,B
+,,B. All child business units should have an individual SFTP user
+,,C. Each business unit should have multiple SFTP users
+,,D. Child business unit SFTP user should be created
+
+32,What are entry source types for Journey Builder?
+,,"A. Data Extension, Email List, API Event, Date Based Event",B
+,,"B. Data Extension, Audience Studio, API Event, Date Based Event"
+,,"C. Data Extension, CloudPages, Email List, API Event"
+,,"D. Data Extension, Salesforce Community, GA360, Email List"
+
+33,An email manager was anticipating a test email to arrive in their inbox.
+,,A. My Reports > Administrator Reports > Email Send Report,C
+,,B. My Tracking > A/B Testing
+,,C. My Tracking > Test Send Emails
+,,D. My Reports > Administrator Reports > Email Sends By User
+
+34,NTO wants to copy journeys across business units.
+,,A. Journey Templates,B
+,,B. Deployment Manager
+,,C. Copy activities
+,,D. Journey Extracts
+
+35,A Marketing Cloud admin is configuring Social Studio to manage Northern Trail Outfitters social media accounts.
+,,A. Facebook ad manager,"B,D"
+,,B. Bitly URL Shortener
+,,C. Google URL shortner
+,,D. Login detail for each social media account
+
+36,Northern Trail Outfitters' security team has password policies they want enforced within Marketing Cloud.
+,,"A. Minimum Password Length, Use Strong Passphrases, Password History, Number of Security Questions",B
+,,"B. Minimum Password Length, Password Complexity, Password History, Expiration Period"
+,,"C. Maximum Password Length, Password Complexity, Unique Password, Expiration Period"
+,,"D. Minimum Password Length, Use Strong Passphrases, Unique Password, Number of Security Questions"
+
+37,"Northern Trail Outfitters is setting up new hires on its instance of Marketing Cloud, which includes Email Studio, Mobile Connect, and Social Studio. One of the hires needs to manage the operations of all of the North American Business Units."
+,,A. Marketing Cloud Regional or Local Administrator,"A,B"
+,,B. Marketing Cloud Email Marketing Manager
+,,C. Marketing Cloud Channel Manager
+,,D. Marketing Cloud Administrator
+
+38,A Marketing Cloud admin is asked to add a set of four tracking parameters automatically to all the links in an email sent via email studio.
+,,A. Marketing Cloud Connect,C
+,,B. Google Analytics 360
+,,C. Web Analytics Connector
+,,D. AMPscript for Marketing Cloud
+
+39,Northern Trail Outfitters has a mobile app.
+,,A. Journey Builder,"A,C"
+,,B. MobileConnect
+,,C. MobilePush
+,,D. Contact Builder
+
+40,A Marketing Cloud admin is tasked with requesting Marketing Cloud Connect Multi-Org enablement.
+,,A. Branding for each business units' profile centers will be inherited from the default business unit setup.,B
+,,B. Multi org does not support the standard profile preference center for the business units.
+,,C. Profile/Preference centers for Multi-Org accounts are configured in the Salesforce CRM settings.
+,,D. Profile/Preference centers are automatically created for each business unit connected through Multi-org
+
+41,A Consultant has a data extension that contains all current product information. The customer wants to refresh data each morning by importing a CSV containing today's product catalog. The product catalog is never the same; products can be added and removed. Which import type should be used?
+,,A. Add/Update,A
+,,B. Update Only
+,,C. Add Only
+,,D. Overwrite
+
+42,Northern Trail Outfitters wants to have specific permission restrictions applied to all users in a business unit.
+,,A. A Assign a role to the business unit,A
+,,B. Disable the permissions directly within the business unit
+,,C. Apply a permission set to the business unit
+,,D. Set default permissions with the restrictions on the business unit
+
+43,"A university plans to use Journey Builder to improve their 1:1 marketing to potential students, current students, and alumni. The university currently has student data in the Sales Cloud. Other data, such as course catalog, student demographics, and alumni information, is stored in external systems."
+,,A. Create list attributes to store student data from the Sales Cloud.,"B,C"
+,,B. Use Synchronized Data Sources to data from the Sales Cloud.
+,,C. Use Data Designer to link student and alumni data to the contact record.
+,,D. Create an Import Activity to import alumni data into Salesforce Report.
+
+44,"A Marketing Cloud admin wants to configure a new keyword for an upcoming SMS campaign. After entering the desired keyword CELEBRATION, the admin notices the keyword is unavailable."
+,,A. Keyword has too many characters,D
+,,B. Keyword is a reserved word
+,,C. Keyword fails to meet content standards
+,,D. Keyword is used within another business unit
+
+45,"Northern Trail Outfitters (NTO) hired a new Marketing Cloud admin, who was told all emails come from "
+,,A. Cloudpages personalized URLs are served from cloud.email.nto.com,"A,C"
+,,B. Users receive Marketing Cloud password reset emails from
+,,"C. Upon receiving an email, all tracked links start with click.email.nto.com"
+,,D. The login page for Marketing Cloud Users is login.email.nto.com and is branded with NTO colors
+
+46,Northern Trail Outfitters (NTO) only has enough licenses for their staff. A campaign manager is out on parental leave How should NTO create a new user to fill in?
+,,A. Disable the campaign manager's user and create a new user,A
+,,B. Deactivate the campaign manager's license and assign it to the new user
+,,C. Delete the campaign manager's user and create a new user
+,,D. Transfer the campaign manager's permissions to a new user
+
+47,Which three statements should be considered before using Goals in Journey Builder?
+,,A. Goals can act as exit criteria.,"A,B,D"
+,,B. Goals are created to evaluate journey performance.
+,,C. Each contact is assigned an individual goal.
+,,D. Contacts are evaluated against the goal after a wait activity.
+,,E. Goal target statistics are stored in a data extension.
+
+48,"Northern Trail Outfitters is migrating from a small, in-house email solution to Marketing Cloud."
+,,"A. The IP address is on reserve, is already in use, and has an email sending history.",B
+,,B. Sending in large volumes will alert ISPs the new IP Address is now in use.
+,,"C. Migration of larger marketing campaigns is necessary prior to bringing on smaller, triggered campaigns."
+,,D. Building desirable sending history and data will be variable based on list size and engagement.
+
+49,"Northern Trail Outfitters wants to expand their use of Marketing Cloud to business users who spend their day in Sales Cloud, without granting access to Marketing Cloud directly."
+,,A. Marketing Cloud Connect,A
+,,B. Distributed Sending
+,,C. Distributed Marketing
+
+50,Northern Trail Outfitters wants to bring subscriber data from its data warehouse into Marketing Cloud.
+,,A. Number,"C,D"
+,,B. Boolean
+,,C. Text
+,,D. Decimal
+
+51,Northern Trail Outfitters (NTO) has expanded its marketing efforts globally and wants to implement a dedicated Sender Authentication Package. They plan to share it across each of their Marketing Cloud accounts Which two considerations would help NTO determine if a Dedicated IP is the right choice?
+,,A. Send volume is large enough to maintain a positive or neutral reputation,A
+,,B. All of NTO's accounts should be on the same stack
+,,C. Pre-warmed IP address can be purchased from Salesforce
+,,D. Length of time needed to pause sending is greater than one month
+
+52,A Marketing Cloud admin at a bank is asked to avoid storing sensitive data in the cloud. This data will only be sent to Marketing cloud to execute a send.
+,,A. Distributed Marketing Sends.,B
+,,B. Tokenized Sending
+,,C. Field Level Encryption.
+,,D. List Sending
+
